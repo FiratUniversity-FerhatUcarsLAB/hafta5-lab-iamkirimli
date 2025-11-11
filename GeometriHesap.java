@@ -51,8 +51,8 @@ public class odev_01 {
 		double karenin_alani = cevre*cevre;
 		System.out.println("");
 		System.out.println("=============================");
-		System.out.println("Karenin Çevresi: " + karenin_cevresi);
-		System.out.println("Karenin Alanı: " + karenin_alani);
+		System.out.printf("Karenin Çevresi:  %.2f \n", karenin_cevresi);
+		System.out.printf("Karenin Alanı:  %.2f \n", karenin_alani);
 		System.out.println("");
 	}
 	
@@ -62,8 +62,8 @@ public class odev_01 {
 		double dikdortgen_alan = kisa_kenar*uzun_kenar;
 		System.out.println("");
 		System.out.println("=============================");
-		System.out.println("Dikdörtgenin Çevresi: " + dikdortgen_cevre);
-		System.out.println("Dikdörtgenin Alanı: " + dikdortgen_alan);
+		System.out.printf("Dikdörtgenin Çevresi:  %.2f \n", dikdortgen_cevre);
+		System.out.printf("Dikdörtgenin Alanı:  %.2f \n", dikdortgen_alan);
 		System.out.println("");
 	}
 	
@@ -73,8 +73,8 @@ public class odev_01 {
 		double daire_alan = Math.PI*(yaricap*yaricap);
 		System.out.println("");
 		System.out.println("=============================");
-		System.out.println("Dairenin Çevresi: " + daire_cevre);
-		System.out.println("Dairenin Alanı: " + daire_alan);
+		System.out.printf("Dairenin Çevresi: %.2f \n", daire_cevre);
+		System.out.printf("Dairenin Alanı: %.2f \n", daire_alan);
 		System.out.println("");
 	}
 	
@@ -85,10 +85,9 @@ public class odev_01 {
 		double ucgen_alan = Math.sqrt(s*(s*kenar_a)*(s*kenar_b)*(s*kenar_c));
 		System.out.println("");
 		System.out.println("=============================");
-		System.out.println("Üçgenin Çevresi: " + ucgen_cevre);
-		System.out.println("Üçgenin Alanı: " + ucgen_alan);
+		System.out.printf("Üçgenin Çevresi:  %.2f \n", ucgen_cevre);
+		System.out.printf("Üçgenin Alanı:  %.2f \n", ucgen_alan);
 		System.out.println("");
 	}
 	
 }
-
