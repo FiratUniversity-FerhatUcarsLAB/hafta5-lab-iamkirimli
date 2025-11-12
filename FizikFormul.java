@@ -1,7 +1,7 @@
 /*
  * Ad Soyad: Mehmet Ali Kırımlı
  * Ogrenci No: 250542027
- * Tarih: 11.11.2025
+ * Tarih: 13.11.2025
  * Aciklama: Gorev 2 - Fizik Formulu Asistani
  *
  * Bu program temel fizik formullerini kullanarak
@@ -124,6 +124,8 @@ public class odev_02 {
         System.out.printf(" Momentum (p = m*v) %.2f kg·m/s", momentum);
         
         System.out.println("\n\n========================================");
+
+		scanner.close();
 		
 	}
 }
